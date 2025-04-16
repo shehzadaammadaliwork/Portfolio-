@@ -4,7 +4,7 @@ import logoPng from "./logo.png";
 import logoNew from "./logoNew.png";
 
 import backend from "./backend.png";
-import creator from "./creator.PNG";
+import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -32,7 +32,7 @@ import pixelpace from "./pixelpacetechnologies_logo.jpeg";
 import tesla from "./company/tesla.png";
 import yggy from "./yggy.PNG";
 
-import carrent from "./carrent.png";
+import carrent from "./carrent.PNG";
 import jobit from "./jobit.png";
 import tripguide from "./travel.PNG";
 import yes from "./yes.PNG";
