@@ -3,7 +3,7 @@ import logoA from "./logoA.svg";
 import logoPng from "./logo.png";
 import logoNew from "./logoNew.png";
 
-import backend from "./backend.PNG";
+import backend from "./backend.png";
 import creator from "./creator.PNG";
 import mobile from "./mobile.png";
 import web from "./web.png";
