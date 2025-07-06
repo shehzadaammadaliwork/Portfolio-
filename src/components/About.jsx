@@ -47,11 +47,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Hi, I’m Shehzada Ammad Ali A passionate Frontend Developer & MERN Stack
+        Engineer with a strong command of JavaScript, TypeScript, and frameworks
+        like React, Node.js, and Three.js. I craft clean, responsive, and
+        performance-driven web applications with a focus on UI/UX and real-world
+        functionality. From dynamic dashboards to immersive 3D experiences, I
+        bring ideas to life using modern web technologies. I’m a fast learner
+        and team player, known for collaborating closely with clients to deliver
+        scalable and user-friendly solutions that meet business goals. Whether
+        you're launching a new product or improving an existing one — I'm ready
+        to help make it happen. Let’s build something amazing together.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

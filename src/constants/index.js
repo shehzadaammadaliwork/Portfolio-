@@ -274,7 +274,8 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://travelafricas.com/",
+    source_code_link:
+      "https://github.com/shehzadaammadaliwork/shehzadaammadaliwork",
   },
   {
     name: "Cigar Ecommerce Store",
@@ -291,7 +292,8 @@ const projects = [
       },
     ],
     image: cigar,
-    source_code_link: "https://migratorystory.com/",
+    source_code_link:
+      "https://github.com/shehzadaammadaliwork/shehzadaammadaliwork",
   },
   {
     name: "Yggy Career Suite",
@@ -338,6 +340,56 @@ const projects = [
     ],
     image: aution,
     source_code_link: "https://awdauctions.com/",
+  },
+  {
+    name: "Jim’s Bathrooms",
+    description:
+      "Jim’s Bathrooms is a professional bathroom renovation platform and franchise management system built to streamline project tracking, client communication, and franchise operations. Designed for one of Australia's most trusted home service brands, the platform supports renovation teams with progress dashboards, task management, and customer satisfaction tools. It ensures seamless coordination between head office and franchisees, improving transparency and operational efficiency.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "https://innvobiz.com/storage/web/1750604904_68581c68e76fd.webp", // Replace with the actual image variable or path
+    source_code_link: "https://jimsbathrooms.com.au/", // Update with actual if available
+  },
+  {
+    name: "CoinDCX",
+    description:
+      "CoinDCX is a leading cryptocurrency trading platform that provides users with secure, lightning-fast access to buy, sell, and manage a wide range of digital assets. Built with performance and user experience in mind, the platform offers advanced trading features, real-time price tracking, portfolio management, and seamless fiat-to-crypto conversions. CoinDCX prioritizes security, scalability, and intuitive UI to make crypto investing accessible for both beginners and experienced traders.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Postgre SQL",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "https://innvobiz.com/storage/web/1750604520_68581ae867823.webp", // Replace with the actual image variable or path
+    source_code_link: "https://coindcx.com/", // Update with your repo link if this is a clone or related project
   },
 ];
 
