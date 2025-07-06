@@ -5,6 +5,10 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close, logoNew } from "../assets";
 
+// Icon imports
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { MdEmail, MdPhone } from "react-icons/md";
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -31,7 +35,7 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <ul className="list-none sm:flex flex-row gap-10 hidden">
+        <ul className="list-none sm:flex flex-row gap-10 hidden items-center">
           {navLinks.map((link) => (
             <li
               key={link.id}
@@ -43,9 +47,40 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+
+          {/* Social & Contact Icons */}
+          <li className="flex gap-4 ml-4">
+            <a
+              href="https://github.com/shehzadaammadaliwork/shehzadaammadaliwork"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub className="text-white hover:text-gray-300 text-xl" />
+            </a>
+            <a href="tel:+923164094959">
+              <MdPhone className="text-white hover:text-gray-300 text-xl" />
+            </a>
+            <a href="mailto:shehzadaammadaliwork@gmail.com">
+              <MdEmail className="text-white hover:text-gray-300 text-xl" />
+            </a>
+            <a
+              href="https://instagram.com/sh_ammad/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram className="text-white hover:text-gray-300 text-xl" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/shehzada-ammad-ali/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin className="text-white hover:text-gray-300 text-xl" />
+            </a>
+          </li>
         </ul>
 
-        {/* Mobile Menu */}
+        {/* Mobile Menu Button */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
@@ -54,11 +89,11 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
 
-          {/* Mobile Menu Content */}
+          {/* Mobile Dropdown Menu */}
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[160px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLinks.map((link) => (
@@ -75,6 +110,37 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+
+              {/* Mobile Social & Contact Icons */}
+              <li className="flex gap-4 mt-4">
+                <a
+                  href="https://github.com/shehzadaammadaliwork"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub className="text-white text-lg" />
+                </a>
+                <a href="tel:+923001234567">
+                  <MdPhone className="text-white text-lg" />
+                </a>
+                <a href="mailto:yourname@example.com">
+                  <MdEmail className="text-white text-lg" />
+                </a>
+                <a
+                  href="https://instagram.com/yourhandle"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram className="text-white text-lg" />
+                </a>
+                <a
+                  href="https://linkedin.com/in/yourhandle"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin className="text-white text-lg" />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
